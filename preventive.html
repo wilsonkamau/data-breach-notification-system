@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>navigation</title>
+    <link rel="stylesheet" href="script.js">
+    <script defer scr="script.js"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            background: url('pic8.jpg') no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+
+        nav {
+            background-color: red;
+            height: 80px;
+            width: 100%;
+            line-height: 75px;
+            position: fixed;
+        }
+        nav li{
+            display:inline-block;
+            list-style: none;
+        }
+        
+        nav li a{
+font-size: 10px;
+text-transform: uppercase;
+padding:0px 0.1px;
+color:blue;
+        }
+nav li a:hover{
+    color:pink;
+    transition: all 0.4s ease 1s;
+}
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            color: #0ef;
+        }
+   nav ul {
+    float: left;
+    margin-right:20px;
+
+    }
+    nav ul li{
+        display: inline-block;
+        line-height: 80px;
+        margin: 4px;
+        margin-right: 10px;
+    }
+   nav ul li a {
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase
+    }
+    .container {
+        text-align: center;
+        max-width: 600px;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        float: right;
+    margin-right:20px;
+    margin-top: 100px;
+    padding-top: 50px;
+    top: 50%;
+		left: 50%;
+		position: absolute;
+		transform: translate(-50%, -50%);
+
+    }
+
+    h1 {
+        color: blue;
+    }
+
+    p {
+        color: green;
+    }
+
+    .action-steps {
+        text-align: left;
+        margin-top: 20px;
+    }
+    </style>
+</head>
+<body>
+    <nav>
+    <ul>
+    <li><a href="action.html" class="active">action</li></li>
+    <li><a href="affected.html">affected</a></li>
+    <li><a href="Data.html">Data</a></li>
+    <li><a href="contact.html">contact</a></li>
+    <li><a href="details.html">details</a></li>
+    <li><a href="integ.html">integ</a></li>
+    <li><a href="legal.html">legal</a></li>
+    <li><a href="notification.html">notification</a></li>
+    <li><a href="preventive.html">preventive</a></li>
+    <li><a href="sec.html">sec</a></li>
+    <li><a href="updates.html">updates</a></li>
+    <li><a href="subscription_form.php">subscription</a></li>
+    </ul>
+</nav>
+<!-- Your page content goes here -->
+<div class="container">
+    <h1>Preventive Measures</h1>
+    
+    <p>Protect yourself from potential data breaches by following these preventive measures:</p>
+    
+    <div class="prevention-tips">
+        <ul>
+            <li><strong>Use Strong Passwords:</strong> Create unique and strong passwords for each of your accounts.</li>
+            <li><strong>Enable Two-Factor Authentication (2FA):</strong> Add an extra layer of security to your accounts with 2FA.</li>
+            <li><strong>Regularly Update Software:</strong> Keep your operating system, antivirus, and applications up to date.</li>
+            <li><strong>Be Cautious of Phishing:</strong> Avoid clicking on suspicious links or providing sensitive information to unknown sources.</li>
+            <li><strong>Monitor Your Accounts:</strong> Regularly check your account activity for any unauthorized access.</li>
+        </ul>
+    </div>
+    
+    <p>By following these tips, you can significantly reduce the risk of falling victim to online threats.</p>
+    
+    
+    <a href="navi.html" class="action-button"></a>
+</div>
+
+</body>
+</html>
